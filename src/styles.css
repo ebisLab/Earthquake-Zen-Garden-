@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #444444;
+  }
+  
+  nav {
+    display: flex;
+    background: #ededed;
+    padding: 10px 10px 0 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .logo_placement {
+    left: 10px;
+    position: absolute;
+  }
+  
+  .greeting_placement {
+    position: absolute;
+    right: 10px;
+    font-weight: 600;
+  }
+  
+  h1 {
+    color: #777777;
+  }
+  
+  .main_placing {
+    text-align: -webkit-center;
+  }
+  
+  .earthquake_heading {
+  }
+  
+  .earthquake_data_an_hour_heading {
+    text-align: center;
+  }
+  
+  .table_title {
+    cursor: pointer;
+  }
+  
+  .main_placing table {
+    font-weight: 600;
+  }
+  
+  a {
+    color: #0011bb;
+  }
+  
+  a:visited {
+    color: #6600cc;
+  }
+  
+  .table_value {
+    color: #777777;
+  }
+  
+  .table_key {
+    width: 95px;
+  }
+  
+  .x {
+    width: 110px;
+  }
+  
+  .profile {
+    margin: 0 25%;
+  }
+  
+  .td_position_up {
+    position: absolute;
+  }
+  
