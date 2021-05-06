@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 
-export default function Profile({ data, setUsrName }) {
+export default function Profile({ data }) {
 
   return (
     <div className="main_placing profile">
