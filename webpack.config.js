@@ -22,7 +22,8 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, "./dist"),
-    filename: "bundle.js",
+    filename: "bundle-[hash].js",
+    publicPath: '/'
   },
   mode:'development',
   plugins: [
@@ -32,6 +33,7 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, "./dist"),
     hot: true,
+    historyApiFallback: true
   },
 };
 
